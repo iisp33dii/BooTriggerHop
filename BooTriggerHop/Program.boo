@@ -1,4 +1,4 @@
-﻿namespace BHOPinBOO
+namespace BHOPinBOO
 
 import System
 import System.Diagnostics
@@ -17,9 +17,9 @@ def WriteProcessMemory(Handle as IntPtr, Address as int, buffer as (byte), Size 
 	pass	
 
 OffsetLocalPlayer as int = 0xAABFFC
-OffsetEntityList as int = 0x4A88564
-OffsetForceJump as int = 0x4F1F4F8
-OffsetForceAttack as int = 0x2ECA928
+OffsetEntityList as int = 0x4A88534
+OffsetForceJump as int = 0x4F1F4C8
+OffsetForceAttack as int = 0x2ECA8C8
 
 OffsetCrossHairId as int = 0xB2B4
 OffsetLifeState as int = 0x25B
